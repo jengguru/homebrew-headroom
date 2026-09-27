@@ -7,7 +7,7 @@ cask "headroom" do
   desc "Menu bar app showing Claude and Codex usage limits"
   homepage "https://github.com/jengguru/headroom"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Headroom.app"
 
