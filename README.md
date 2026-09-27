@@ -6,13 +6,19 @@
 
 ```
 brew tap jengguru/headroom
-brew install --cask headroom
+brew install --cask jengguru/headroom/headroom
 ```
+
+The cask name must be spelled out in full (`jengguru/headroom/headroom`, not
+just `headroom`): the official Homebrew Cask repository already has an
+unrelated cask also named `headroom` (for [extraheadroom.com](https://extraheadroom.com)),
+and it takes priority over this tap's cask of the same name — a bare
+`brew install --cask headroom` installs *that* app instead.
 
 ## Update
 
 ```
-brew upgrade --cask headroom
+brew upgrade --cask jengguru/headroom/headroom
 ```
 
 ## Updating this tap for a new Headroom release
