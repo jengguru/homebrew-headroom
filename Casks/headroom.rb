@@ -1,6 +1,6 @@
 cask "headroom" do
-  version "0.4.0"
-  sha256 "a37646c88026112cf8f53344969fcc67631029d1cf78e481e7a9bb6121c73cd2"
+  version "0.4.1"
+  sha256 "401c179ce068823893589c17b78cdc9a23d5846373468199995d5f73dd8e8121"
 
   url "https://github.com/jengguru/headroom/releases/download/v#{version}/Headroom.zip"
   name "Headroom"
